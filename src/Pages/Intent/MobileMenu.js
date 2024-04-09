@@ -98,11 +98,11 @@ const MobileMenu = ({ toggle, show }) => {
         )}
 
         <li className='nav-item'>
-          <NavLink to='/about'>About</NavLink>
+        <a href='/about'>About</a>
         </li>
 
         <li className='nav-item'>
-          <NavLink to='/about'>Contact</NavLink>
+        <a href='/contact'>Contact</a>
         </li>
         <li
           className='close-btn'

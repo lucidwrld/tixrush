@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { MdClose, MdArrowRight } from 'react-icons/md'
 import { IoClose } from 'react-icons/io5'
 import ArrowDown from '../../Assets/img/arrowdown.svg'
-import { NavLink, useNavigate } from 'react-router-dom'
+import {  useNavigate } from 'react-router-dom'
 import { categories } from './categories'
 
 const MobileMenu = ({ toggle, show, toggleCreateEvent }) => {
@@ -20,9 +20,9 @@ const MobileMenu = ({ toggle, show, toggleCreateEvent }) => {
           </button>
         </li>
         <li className='nav-item text-center'>
-          <NavLink to='/' onClick={() => {
+          <a href='/'  onClick={() => {
             toggle(false)
-          }}>Home</NavLink>
+          }}>Home</a>
         </li>
         <li className='nav-item text-center' onClick={toggleSubMenu}>
           Categories{' '}
@@ -142,7 +142,7 @@ const MobileMenu = ({ toggle, show, toggleCreateEvent }) => {
         )} */}
 
         <li className='nav-item text-center'>
-          <NavLink to='/about'>About</NavLink>
+          <a href='/about'>About</a>
         </li>
 
         <li className='nav-item text-center'
@@ -150,7 +150,7 @@ const MobileMenu = ({ toggle, show, toggleCreateEvent }) => {
             toggle(false)
           }}
         >
-          <NavLink to='/contact'>Contact</NavLink>
+           <a href='/contact'>Contact</a>
         </li>
         <li
           className='close-btn'

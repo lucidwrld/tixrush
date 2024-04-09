@@ -129,7 +129,7 @@ const Contact = () => {
       
       <section className='px-2 px-md-5 pt-2 pb-4 ' >
         <div className='d-flex justify-content-between align-items-center mt-5' >
-          <h3 className='page-section-title  mb-5'>About Us</h3>
+          <h3 className='page-section-title  mb-5 mt-5'>About Us</h3>
         </div>
 
         {/* <div>

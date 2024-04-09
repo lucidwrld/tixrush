@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { MdClose, MdArrowRight } from 'react-icons/md'
 import { IoClose } from 'react-icons/io5'
 import ArrowDown from '../../Assets/img/arrowdown.svg'
-import { NavLink, useNavigate } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 
 const MobileMenu = ({ toggle, show }) => {
   const navigate = useNavigate()
@@ -98,11 +98,11 @@ const MobileMenu = ({ toggle, show }) => {
         )}
 
         <li className='nav-item'>
-          <NavLink to='/about'>About</NavLink>
+          <a href='/about'>About</a>
         </li>
 
         <li className='nav-item'>
-          <NavLink to='/about'>Contact</NavLink>
+          <a href='/contact'>Contact</a>
         </li>
         <li
           className='close-btn'

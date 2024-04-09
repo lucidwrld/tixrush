@@ -108,9 +108,9 @@ const Contact = () => {
     <div className='bg-black'>
       <Header position={'fixed'} activeLink='contact' subPage={true} />
 
-      <section className='px-3 px-md-5 pt-2 pb-4'>
+      <section className='px-3 px-md-5 pt-2 pb-4 '>
         <div className='d-flex justify-content-between align-items-center mt-5'>
-          <h3 className='page-section-title'>Contact Us</h3>
+          <h3 className='page-section-title mt-5'>Contact Us</h3>
           <div className='d-none d-lg-flex contact-page-icons'>
             <a target="_blank" href='https://www.instagram.com/tixrush/'>
               <img src={instagram} alt='icon' />{' '}

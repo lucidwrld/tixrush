@@ -75,17 +75,13 @@ const Footer = () => {
               >Join Us</li>
               <li className='mb-4'
                 role='button'
-                onClick={() => {
-                  navigate('/about')
-                }}
-              >About Us
+               
+              ><a href='/about'>About</a>
               </li>
               <li className='mb-4'
                 role='button'
-                onClick={() => {
-                  navigate('/contact')
-                }}
-              >Contact</li>
+                
+              ><a href='/contact'>Contact</a></li>
             </ul>
           </Col>
           <Col sm='12' lg='4' className=' px-md-0 px-3'>
