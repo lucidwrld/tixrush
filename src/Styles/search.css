@@ -1,0 +1,23 @@
+.go-back-arrow-container {
+  background: rgba(255, 255, 255, 0.3);
+  border: 1px solid #ffffff;
+  box-shadow: 0px 4px 5px rgba(32, 62, 84, 0.15);
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search-result-container {
+  background: #282828;
+  box-shadow: 0px 4px 5px rgba(32, 62, 84, 0.15);
+  border-radius: 15px;
+  padding-right: 12px;
+}
+.search-event-name {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 22px;
+  /* identical to box height */
+
+  color: #ffffff;
+}

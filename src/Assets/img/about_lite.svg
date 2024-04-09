@@ -1,0 +1,40 @@
+<svg width="1512" height="1315" viewBox="0 0 1512 1315" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="415" height="441" transform="matrix(-1 0 0 1 1182 437)" fill="url(#paint0_angular_2765_3598)"/>
+<rect x="352" y="437" width="415" height="441" fill="url(#paint1_angular_2765_3598)"/>
+<g filter="url(#filter0_bf_2765_3598)">
+<rect x="334" y="669" width="844" height="328" fill="black" fill-opacity="0.15"/>
+</g>
+<g filter="url(#filter1_f_2765_3598)">
+<ellipse cx="758.347" cy="657.5" rx="434.347" ry="81.5" fill="#00E194" fill-opacity="0.5"/>
+</g>
+<defs>
+<filter id="filter0_bf_2765_3598" x="234" y="569" width="1044" height="528" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImageFix" stdDeviation="50"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_2765_3598"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_2765_3598" result="shape"/>
+<feGaussianBlur stdDeviation="20" result="effect2_foregroundBlur_2765_3598"/>
+</filter>
+<filter id="filter1_f_2765_3598" x="-251.294" y="0.705872" width="2019.28" height="1313.59" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="287.647" result="effect1_foregroundBlur_2765_3598"/>
+</filter>
+<radialGradient id="paint0_angular_2765_3598" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(207.5 220.5) rotate(0.192817) scale(181.501 132.653)">
+<stop stop-color="#00E194"/>
+<stop offset="0.199303" stop-color="#00B275" stop-opacity="0.5"/>
+<stop offset="0.368496" stop-color="#009260" stop-opacity="0"/>
+<stop offset="0.83483" stop-color="#00281A" stop-opacity="0"/>
+<stop offset="0.99414" stop-color="#000F0A" stop-opacity="0"/>
+<stop offset="1"/>
+</radialGradient>
+<radialGradient id="paint1_angular_2765_3598" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(559.5 657.5) rotate(0.192817) scale(181.501 132.653)">
+<stop stop-color="#00E194"/>
+<stop offset="0.199303" stop-color="#00B275" stop-opacity="0.5"/>
+<stop offset="0.368496" stop-color="#009260" stop-opacity="0"/>
+<stop offset="0.83483" stop-color="#00281A" stop-opacity="0"/>
+<stop offset="0.99414" stop-color="#000F0A" stop-opacity="0"/>
+<stop offset="1"/>
+</radialGradient>
+</defs>
+</svg>

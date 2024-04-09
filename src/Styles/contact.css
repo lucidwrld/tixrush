@@ -1,0 +1,147 @@
+.page-section-title {
+  font-weight: 300;
+  font-size: 93.2727px;
+  line-height: 140px;
+  color: #ffffff;
+  position: relative;
+}
+
+.page-section-title::before {
+  content: "";
+  position: absolute;
+  width: 35%;
+  border: 3px solid #00e194;
+  /* height: 30px; */
+  bottom: 0;
+  right: 0;
+  border-radius: 20px;
+}
+
+.contact-page-icons {
+  gap: 50px;
+}
+
+.contact-page-text {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.contact-us-icon {
+  display: flex;
+  background: #00e194;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  background: #00e194;
+  border-radius: 11.0256px;
+}
+
+.contact-us-icons-wrapper {
+  gap: 40px;
+}
+
+.contact-us-icon-details-wrapper {
+  gap: 15px;
+}
+
+.contact-us-icon-title {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 22px;
+  color: #ffffff;
+}
+
+.contact-us-icon-details {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+
+  color: #ffffff;
+}
+
+.contact-form-text {
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 38px;
+
+  color: #ffffff;
+}
+
+.contact-form {
+  border: 1px solid #00e194;
+  border-radius: 14.464px;
+  padding: 25px 20px;
+  margin-bottom: 57px;
+}
+
+.contact-form label {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 22px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.contact-form input,
+.contact-form input:focus,
+.contact-form textarea,
+.contact-form textarea:focus {
+  background: #282828;
+  border-radius: 14.464px;
+  border: none;
+  box-shadow: none;
+  color: white;
+  resize: none;
+}
+
+.contact-form-wrapper {
+  width: 65%;
+}
+
+.contact-form button,
+.contact-form button:hover {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 22px;
+  text-align: center;
+  color: #ffffff;
+  background: #00e194 !important;
+  border-radius: 14.464px;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  transition: all 10ms ease-in-out;
+}
+
+.contact-form button:hover {
+  background: #07d58d !important;
+}
+
+@media(max-width:767px) {
+  .page-section-title {
+    font-size: 30.2727px;
+    line-height: 0;
+
+  }
+
+  .page-section-title::before {
+
+    width: 42%;
+    border: 2px solid #00e194;
+    bottom: -24px;
+    border-radius: 20px;
+  }
+
+  .contact-page-icons {
+    gap: 25px;
+  }
+
+  .contact-form-wrapper {
+    width: 100%;
+  }
+}

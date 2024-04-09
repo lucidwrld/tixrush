@@ -1,0 +1,17 @@
+.announcement-details {
+    text-align: center;
+    color: white;
+    word-wrap: break-word;
+    width: 30%;
+    border: 3px solid red;
+}
+
+.announcement-details h3 {
+    font-size: 46.34px;
+    font-weight: 700;
+}
+
+.announcement-details p {
+    font-size: 16px;
+    font-weight: 400;
+}
